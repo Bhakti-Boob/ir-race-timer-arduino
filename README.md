@@ -51,11 +51,11 @@ The system was designed for use in RPTU's Assembler programming lab where line f
    - While `stopped == true`, the code waits until both beams are clear again and at least 15 seconds have passed since `stopMillis`.  
    - After that, it resets `stopped = false`, turns off LEDs, and restores the display to `00.00` ready for the next run.
 
+# Possible Extensions
+- Add a lap counter or "best time" memory over multiple runs.  
+- Log times over serial or to an SD card for later analysis.
+
 # How to Use This Repository
 - /src/ – Arduino sketch for timing display and IR sensor integration
 - /circuit_diagrams/ – Schematics, wiring diagram
 - /docs/ – Photo and video of the assembled prototype
-
-# Possible Extensions
-- Add a lap counter or "best time" memory over multiple runs.  
-- Log times over serial or to an SD card for later analysis.  
